@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Indie+Flower&display=swap');
+
+body{
+  margin:0;
+}
+*{
+  box-sizing: border-box;
+  font-family: 'fredoka',sans-serif;
+}
+
+
+/* navbar */
+.navbar .nav-link:hover{
+    color: red !important;
+}
+.navbar a{
+    color: white !important;
+}
+.navbar{
+    padding: 1rem 1rem;
+}
+
+/* banner */
+.banner .trans{
+    background-color: rgba(0, 0, 0, 0.598)!important;
+    width:100%;
+    height:100%;
+
+}
+.banner{
+    background-image: url(/asset/img/hero-bg.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: 100% 15%;
+    background-attachment: fixed;
+    width:100%;
+    height:80vh;
+}
+
+.banner .banner-text{
+    position:absolute;
+    top: 300px;
+    left: 100px;
+    color:white;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+}
+.banner .banner-text .sty{
+    border: 2px solid white;
+    background: transparent;
+    text-transform: uppercase;
+    padding: 1rem 1rem;
+    color:white;
+    font-style: bolder;
+    font-weight: 500;
+}
+
+/* count */
+#count .shadow{
+  padding:2rem 1.5rem;
+}
+
+.red{
+  color:red;
+}
+
+#count .shadow:hover{
+  background: red;
+  color:white;
+  transition: all ease-in-out 3s;
+}
+
+/* filter */
+.p-5 .g-4 img{
+  filter: grayscale(100%);
+}
+.p-5 .g-4 img:hover{
+  filter: grayscale(0%);
+}
+
+/* slideshow */
+#slide .show{
+  background-image: url(/asset/img/slide.jpg);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: 70% 15%;
+  background-attachment: fixed;
+  color:white;
+  position: relative;
+  width:100%;
+  height:40vh;
+}
+.show .show-text{
+  position:absolute;
+  top: 5px;
+  left:100px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.show .show-text .sty{
+    border: 2px solid white;
+    background: transparent;
+    text-transform: uppercase;
+    padding: 1rem 1rem;
+    font-style: bolder;
+    font-weight: 500;
+}
+.show .show-text .sty .non{
+  text-decoration: none;
+  color: white !important; 
+}
+
+/* portfolio */
+/* #port{
+  padding: 200px;
+  width:1280px;
+  margin:40px 20px;
+}
+
+#port ul{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#port ul li{
+  list-style: none;
+  background: #eee;
+  padding: 8px 20px;
+  margin:5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+#port ul li.active{
+  background: red;
+  color:#fff;
+  
+}
+.product{
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.product .itemBox{
+  position: relative;
+  width:300px;
+  height:300px;
+  margin:5px;
+}
+
+.product .itemBox img{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+ */
+
+/* pricing */
+.p-5 .col-12 .bg-danger{
+  color:white;
+}
+
+.p-5 .col-12 li{
+  list-style: none;
+}
+
+.p-5 .col-12 .lash{
+  text-decoration: line-through;
+  color:white;
+}
+
+.lone{
+  color:white !important;
+  
+}
+.p-5 .col-12 .submit{
+  border:2px solid black;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: bolder;
+  font-style: italic;
+  margin-top: 1rem;
+  color:red;
+  padding:.5rem 1rem;
+}
+
+/* footer */
+.container-fluid  .link{
+  list-style: none!important;
+  
+}
+.container-fluid  .link a{
+  text-decoration: none;
+  color:white !important;
+}
